@@ -8,16 +8,16 @@ import search_favorite from '../../assets/image/vuesax-broken-search-favorite.sv
 
 const TopNavbar = () => {
   return (
-    <nav class=" navbartop ">
-    <div class="navtop container">
-        <div class="rightNavTap">
-            <div class="socialMediaIcon">
-                <a href=""><i class='bx bxl-facebook'></i></a>
-                <a href=""><i class='bx bxl-youtube'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
+    <nav className=" navbartop ">
+    <div className="navtop container">
+        <div className="rightNavTap">
+            <div className="socialMediaIcon">
+                <a href=""><i className='bx bxl-facebook'></i></a>
+                <a href=""><i className='bx bxl-youtube'></i></a>
+                <a href=""><i className='bx bxl-instagram'></i></a>
             </div>
-            <div class="linenav"></div>
-            <div class="phoneSideNav">
+            <div className="linenav"></div>
+            <div className="phoneSideNav">
                 <div>
                     <p>Phone</p>
                     <p>00970-8-2824445</p>
@@ -26,13 +26,13 @@ const TopNavbar = () => {
             </div>
 
         </div>
-        <div class="imgLogo">
+        <div className="imgLogo">
            <a href="index.html"> <img src={logo} alt=""/></a>
         </div>
-        <div class="rightNavTap">
+        <div className="rightNavTap">
 
 
-            <div class="phoneSideNav">
+            <div className="phoneSideNav">
                 <div>
                     <p>Email</p>
                     <p>Alimento.Gaza@gmail.com</p>
@@ -40,11 +40,11 @@ const TopNavbar = () => {
                 <img src={imghead3} alt="" />
             </div>
 
-            <div class="linenav"></div>
+            <div className="linenav"></div>
 
-            <div class="lefticonNav">
+            <div className="lefticonNav">
 
-                <i class='bx bx-menu' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+                <i className='bx bx-menu' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
                <img src={BasketIcon} alt=""/>
                <img src={search_favorite} alt="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" />
                

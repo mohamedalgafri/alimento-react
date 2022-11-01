@@ -6,20 +6,20 @@ import threecard3 from '../../src/image/svgexport-7 (8).svg'
 
 const Threecard = () => {
   return (
-    <section class="threecard container">
-    <div class="cardhed">
+    <section className="threecard container">
+    <div className="cardhed">
         <img src={threecard1} alt=""/>
         <p>توصيل لجميع مناطق القطاع</p>
         <p>مُبرد وسريع خلال يوم أو يومين عمل</p>
     </div>
 
-    <div class="cardhed">
+    <div className="cardhed">
         <img src={threecard2} alt=""/>
         <p>توصيل وشحن مجاني محدود</p>
         <p>عند الشراء بـ ٤٩٩ شيكل</p>
     </div>
 
-    <div class="cardhed">
+    <div className="cardhed">
         <img src={threecard3} alt=""/>
         <p>خيارات دفع متعددة</p>
         <p>فيزا - جوال بي - بال بي</p>

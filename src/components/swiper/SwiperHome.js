@@ -28,54 +28,54 @@ const SwiperHome = () => {
         onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
-                <div class="slideheader">
+                <div className="slideheader">
                     <img src={imgshadowsl} alt=""/>
                     <img src={imgswip} alt=""/>
         
-                    <div class="textslide">
+                    <div className="textslide">
                         <h1>قصة ALIMENTO  </h1>
                         <p>شغفنا الذي لا ينضب لحياة أفضل هو المكان الذي تبدأ منه قصتنا. مقرها في غزة ، مدينة الحمضيات ، بدأت Alimento برؤية لتعزيز أسلوب حياة أكثر صحة للسكان المحليين</p>
-                       <a href=""><div class="btnheader"> <p>عرض المزيد</p></div></a> 
+                       <a href=""><div className="btnheader"> <p>عرض المزيد</p></div></a> 
                     </div>
                   </div>
           </SwiperSlide>
 
           <SwiperSlide>
-                <div class="slideheader">
+                <div className="slideheader">
                 <img src={imgshadowsl} alt=""/>
                 <img src={imgswip} alt=""/>
         
-                    <div class="textslide">
+                    <div className="textslide">
                         <h1>قصة ALIMENTO  </h1>
                         <p>شغفنا الذي لا ينضب لحياة أفضل هو المكان الذي تبدأ منه قصتنا. مقرها في غزة ، مدينة الحمضيات ، بدأت Alimento برؤية لتعزيز أسلوب حياة أكثر صحة للسكان المحليين</p>
-                       <a href=""><div class="btnheader"> <p>عرض المزيد</p></div></a> 
+                       <a href=""><div className="btnheader"> <p>عرض المزيد</p></div></a> 
                     </div>
                   </div>
           </SwiperSlide>
 
           <SwiperSlide>
-                <div class="slideheader">
+                <div className="slideheader">
                 <img src={imgshadowsl} alt=""/>
                 <img src={imgswip} alt=""/>
         
-                    <div class="textslide">
+                    <div className="textslide">
                         <h1>قصة ALIMENTO  </h1>
                         <p>شغفنا الذي لا ينضب لحياة أفضل هو المكان الذي تبدأ منه قصتنا. مقرها في غزة ، مدينة الحمضيات ، بدأت Alimento برؤية لتعزيز أسلوب حياة أكثر صحة للسكان المحليين</p>
-                       <a href=""><div class="btnheader"> <p>عرض المزيد</p></div></a> 
+                       <a href=""><div className="btnheader"> <p>عرض المزيد</p></div></a> 
                     </div>
                
                   </div>
           </SwiperSlide>
 
           <SwiperSlide>
-                <div class="slideheader">
+                <div className="slideheader">
                 <img src={imgshadowsl} alt=""/>
                 <img src={imgswip} alt=""/>
         
-                    <div class="textslide">
+                    <div className="textslide">
                         <h1>قصة ALIMENTO  </h1>
                         <p>شغفنا الذي لا ينضب لحياة أفضل هو المكان الذي تبدأ منه قصتنا. مقرها في غزة ، مدينة الحمضيات ، بدأت Alimento برؤية لتعزيز أسلوب حياة أكثر صحة للسكان المحليين</p>
-                       <a href=""><div class="btnheader"> <p>عرض المزيد</p></div></a> 
+                       <a href=""><div className="btnheader"> <p>عرض المزيد</p></div></a> 
                     </div>
                   </div>
           </SwiperSlide>
