@@ -1,4 +1,5 @@
 import React from 'react'
+import send from '../assets/image/vuesax-broken-send.svg'
 
 const OurNewsletter = () => {
   return (
@@ -7,7 +8,7 @@ const OurNewsletter = () => {
         <h5>اشترك في نشرتنا الإخبارية ليصلك كل ما هو جديد من عروض نصائح وتخفيضات حصرية لعملائنا المميزين</h5>
         <form className="inputOurNewsletter">
             <input type="text" placeholder="ادخل البريد اللإلكترونى"/>
-            <button><img src="image/vuesax-broken-send.svg" alt=""/></button>
+            <button><img src={send} alt=""/></button>
         </form>
     </div>
 </section>

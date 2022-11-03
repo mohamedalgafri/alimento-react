@@ -1,13 +1,7 @@
 import React from 'react'
 
-import pp1 from '../assets/image/pp1.png'
-import pp2 from '../../src/assets/image/pp2.png'
-import pp3 from '../../src/assets/image/pp3.png'
-import pp4 from '../../src/assets/image/pp4.png'
-import pp5 from '../../src/assets/image/pp5.png'
-import pp6 from '../../src/assets/image/pp6.png'
-import pp7 from '../../src/assets/image/pp7.png'
-import pp8 from '../../src/assets/image/pp8.png'
+import {imgcardpro} from '../model/imgprodact'
+
 import CardProdact from './CardProdact'
 
 const NewProdact = () => {
@@ -27,14 +21,15 @@ const NewProdact = () => {
 
     <div className="allcardProdact row">
 
-        <CardProdact imgpro={pp1}/>
-        <CardProdact imgpro={pp2}/>
-        <CardProdact imgpro={pp3}/>
-        <CardProdact imgpro={pp4}/>
-        <CardProdact imgpro={pp5}/>
-        <CardProdact imgpro={pp6}/>
-        <CardProdact imgpro={pp7}/>
-        <CardProdact imgpro={pp8}/>
+
+        <CardProdact id='1' imgpro={imgcardpro.imgpro1}/>
+        <CardProdact id='2' imgpro={imgcardpro.imgpro2}/>
+        <CardProdact id='3' imgpro={imgcardpro.imgpro3}/>
+        <CardProdact id='4' imgpro={imgcardpro.imgpro4}/>
+        <CardProdact id='5' imgpro={imgcardpro.imgpro5}/>
+        <CardProdact id='6' imgpro={imgcardpro.imgpro6}/>
+        <CardProdact id='7' imgpro={imgcardpro.imgpro7}/>
+        <CardProdact id='8' imgpro={imgcardpro.imgpro8}/>
 
     </div>
 

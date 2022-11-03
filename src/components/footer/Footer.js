@@ -1,12 +1,16 @@
 import React from 'react'
 
+import phonimg from '../../assets/image/svgexport-7 (5).svg'
+import logo from '../../assets/image/Artboard 1.svg'
+import emailimg from '../../assets/image/svgexport-7 (4).svg'
+
 const Footer = () => {
   return (
     <footer className="footer">
     <div className="allfooter container">
         <div className="logofooter">
             <div className="linefoo"></div>
-            <a href="index.html"> <img src="../image/Artboard 1.svg" alt=""/></a>
+            <a href="index.html"> <img src={logo} alt=""/></a>
             <div className="linefoo"></div>
         </div>
         <div className="bodyfooter">
@@ -53,7 +57,7 @@ const Footer = () => {
                             <p>رقم الهاتف</p>
                             <p>00970-8-2824445</p>
                         </div>
-                        <img src="../image/svgexport-7 (5).svg" alt=""/>
+                        <img src={phonimg} alt=""/>
                     </div>
 
                     <div className="phoneSideNav navphfoo">
@@ -61,7 +65,7 @@ const Footer = () => {
                             <p>البريد الالكتروني</p>
                             <p>Alimento.Gaza@gmail.com</p>
                         </div>
-                        <img src="../image/svgexport-7 (4).svg" alt=""/>
+                        <img src={emailimg} alt=""/>
                     </div>
                     
                     

@@ -9,7 +9,7 @@
 
 
 *{
-  font-family: myFirstFont;
+  font-family: myFirstFont !important;
   direction: rtl;
 }
 a{
@@ -228,8 +228,16 @@ h1{
 }
 }
 
-.navlist li.active{
+/* .navlist .active{
   background-color: #fff;
+} */
+.navlist .navlink.active{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+ justify-content: center;
 }
 .navlist li{
    list-style: none;
@@ -1025,7 +1033,9 @@ h1{
   margin-top: 60px;
 }
 
-.mySwiperPro{
+
+
+.mySwiperPro .swiper{
  padding-top: 80px;
  margin-top: -65px;
 }
@@ -1624,9 +1634,10 @@ h1{
   width: 100%;
   padding: 10px;
   background-color: #88CE97;
-  color: #fff;
+  color: #fff !important;
   border: none;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 
@@ -1676,12 +1687,18 @@ h1{
 
 }
 
-.bodyProducts .cardpro{
+/* .bodyProducts .cardpro{
+  width: 32%;
+} */
+.bodyProducts .cardProdact{
   width: 32%;
 }
 
 @media (max-width:1200px) {
-  .bodyProducts .cardpro{
+  /* .bodyProducts .cardpro{
+    width: 48%;
+  } */
+  .bodyProducts .cardProdact{
     width: 48%;
   }
 }
@@ -1697,7 +1714,11 @@ h1{
   }
 }
 @media (max-width:560px) {
-  .bodyProducts .cardpro{
+  /* .bodyProducts .cardpro{
+    width: 90%;
+    margin: 0 auto;
+  } */
+  .bodyProducts .cardProdact{
     width: 90%;
     margin: 0 auto;
   }
@@ -2080,6 +2101,9 @@ h1{
   border: none;
   background-color: #CBC1B5;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -3231,4 +3255,8 @@ div#slider-non-linear-step-value{
 .endlist{
   color: #777777;
   text-align: center;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+  fill:#fff !important;
 }

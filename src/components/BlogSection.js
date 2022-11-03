@@ -1,8 +1,6 @@
 import React from 'react'
 
-import imgblog1 from '../assets/image/مطاعم-كيتو-الدمام-1024x400.png'
-import imgblog2 from '../assets/image/نظام-رجيم-صحي-وسهل-وفعال-1024x400.png'
-import imgblog3 from '../assets/image/نظام-الكيتو-دايت-كم-ينزل-في-الأسبوع-1024x400.png'
+import {imgBlog} from '../model/imgprodact'
 import CardBlog from './CardBlog'
 
 const BlogSection = () => {
@@ -22,9 +20,9 @@ const BlogSection = () => {
 
     <div className="cardsBlog">
 
-        <CardBlog imgblog={imgblog1}/>
-        <CardBlog imgblog={imgblog2}/>
-        <CardBlog imgblog={imgblog3}/>
+        <CardBlog imgblog={imgBlog.imgblog1}/>
+        <CardBlog imgblog={imgBlog.imgblog2}/>
+        <CardBlog imgblog={imgBlog.imgblog3}/>
 
 
     </div>

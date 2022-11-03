@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CardBlog = (props) => {
   return (
@@ -8,13 +9,13 @@ const CardBlog = (props) => {
     </div>
     <div className="buttoncardb">
         <p className="tipblog greentip">الكيتو</p>
-        <a href="blogDetails.html">
+        <Link className="comread" to={`/almento/BlogDetails/${props.id}`}>
     
             <h5>أفضل مطاعم كيتو في فلسطين</h5>
             <p> إذا كنت تسكن في مدينة غزة  وتتبع حمية الكيتو دايت أو تفكر في البدء في هذا الرجيم، فمن المؤكد...  </p>
 
-        </a>
-        <a className="comread" href="">أكمل القراءة</a>
+        </Link>
+        <Link className="comread" to={`/almento/BlogDetails/${props.id}`}>أكمل القراءة</Link>
 
     </div>
 </div>

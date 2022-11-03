@@ -15,17 +15,15 @@ import imgshadowsl from '../../assets/image/Rectangle 3491.png';
 import imgswip from '../../assets/image/pexels-ella-olsson-1640770.png';
 
 const SwiperHome = () => {
+
     return (
         <Swiper
-
 
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={0}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
                 <div className="slideheader">
